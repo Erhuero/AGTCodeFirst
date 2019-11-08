@@ -124,6 +124,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Barre.cs" />
+    <Compile Include="Models\Cellule.cs" />
+    <Compile Include="Models\Materiel.cs" />
+    <Compile Include="Models\NveauUrgenceTicket.cs" />
+    <Compile Include="Models\Profil.cs" />
+    <Compile Include="Models\Statut.cs" />
+    <Compile Include="Models\Tickets.cs" />
+    <Compile Include="Models\TypeConnexion.cs" />
+    <Compile Include="Models\TypeIP.cs" />
+    <Compile Include="Models\TypeMateriel.cs" />
+    <Compile Include="Models\Utilisateur.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -165,7 +176,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

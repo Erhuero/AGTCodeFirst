@@ -27,7 +27,7 @@ namespace AGTPPECodeFirst.Models
         public virtual Cellule CELLULE { get; set; }
         public virtual TypeConnexion TYPECONNEXION1 { get; set; }
         public virtual Utilisateur UTILISATEUR { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+       
         public virtual ICollection<Tickets> TICKETS { get; set; }
         public virtual TypeIP TYPEIP1 { get; set; }
 
